@@ -1,4 +1,8 @@
 fn main() {
+    
+    // LET declaration 
+    
+    // can't declare in global scope
     // variables are immutable by default
     let x = 5;
     // x = 6;   this would throw and error
@@ -32,5 +36,8 @@ fn main() {
     }
 
     println!("the value of z is {}", z);
+
+
+
 
 }
